@@ -79,8 +79,8 @@ class Trainer(object):
 
             if save:
                 # Save checkpoint
-                # ckpt_path = os.path.join(self.ckpt_dir, 'epoch_{}.pth'.format(epoch_idx))
-                # torch.save(self.model.state_dict(), ckpt_path)
+                ckpt_path = os.path.join(self.ckpt_dir, 'epoch_{}.pth'.format(epoch_idx))
+                torch.save(self.model.state_dict(), ckpt_path)
                 torch.save(self.model.state_dict(), os.path.join(self.ckpt_dir,
                                                                  'most_recent_model.pth'))
 
