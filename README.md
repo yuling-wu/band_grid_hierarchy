@@ -1,6 +1,6 @@
 # band_grid_hierarchy
 
-Content: This repository contains the code and analysis scripts for our paper ["Unfolding the Black Box of Recurrent Neural Networks for Path Integration"](https://neurips.cc/virtual/2025/poster/117611) NeurIPS (2025). This codes is built upon the [code framework](https://github.com/ganguli-lab/grid-pattern-formation/tree/master) of [Sorscher et al. NeurIPS (2019)](https://proceedings.neurips.cc/paper/2019/hash/6e7d5d259be7bf56ed79029c4e621f44-Abstract.html).
+Content: This repository contains the code and analysis scripts for our paper ["Unfolding the Black Box of Recurrent Neural Networks for Path Integration"](https://neurips.cc/virtual/2025/poster/117611) NeurIPS (2025). This is built upon the [code framework](https://github.com/ganguli-lab/grid-pattern-formation/tree/master) of [Sorscher et al. NeurIPS (2019)](https://proceedings.neurips.cc/paper/2019/hash/6e7d5d259be7bf56ed79029c4e621f44-Abstract.html).
 
 ## 🗂️ Directory Structure
 ```
@@ -18,7 +18,7 @@ band_grid_hierarchy/
 ├── main.py                               # Main entry point
 ├── model.py                              # Model definitions
 ├── place_cells.py                        # Place cell-related code
-├── prune_rnn.py                          # RNN Pruner 
+├── pruner.py                             # RNN Pruner 
 ├── README.md                             # Project description file
 ├── scores.py                             # Scoring script
 ├── trainer.py                            # Training script
@@ -54,7 +54,7 @@ To replicate the computational environment required to run this code:
 
 2. **Quick Start with Pre-trained Models**
 
-    For immediate analysis without training, use the provided example files from [code framework](https://github.com/ganguli-lab/grid-pattern-formation/tree/master):
+    For immediate analysis without training, use the provided example files, which are copied from [code framework](https://github.com/ganguli-lab/grid-pattern-formation/tree/master):
 
     - `models/example_pc_centers.npy`: Pre-computed place cell centers
     - `models/example_trained_weights.npy`: Pre-trained model weights for Vanilla RNN.
