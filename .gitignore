@@ -3,4 +3,4 @@ __pycache__/
 *.pth
 0_*
 logs/
-models/
+models_/
