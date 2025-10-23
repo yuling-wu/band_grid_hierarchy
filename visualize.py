@@ -63,6 +63,8 @@ def rgb(im, cmap='jet', smooth=True):
 
 def plot_ratemaps(activations, n_plots, cmap='jet', smooth=True, width=16):
     images = [rgb(im, cmap, smooth) for im in activations[:n_plots]]
+    if width > n_plots:
+        width = n_plots
     rm_fig = concat_images_in_rows(images, n_plots//width, activations.shape[-1])
     return rm_fig
 
@@ -78,7 +80,8 @@ def compute_ratemaps(model, trajectory_generator, options, res=20, n_avg=None, N
 
     if not n_avg:
         n_avg = 1000 // options.sequence_length
-
+    if options.Ng < Ng:
+        Ng = options.Ng
     if not np.any(idxs):
         idxs = np.arange(Ng)
     idxs = idxs[:Ng]

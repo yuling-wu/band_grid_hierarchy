@@ -1,11 +1,12 @@
 # band_grid_hierarchy
 
-Content: This repository contains the code and analysis scripts for our paper ["Unfolding the Black Box of Recurrent Neural Networks for Path Integration"](https://neurips.cc/virtual/2025/poster/117611) NeurIPS (2025). This is built upon the [code framework](https://github.com/ganguli-lab/grid-pattern-formation/tree/master) of [Sorscher et al. NeurIPS (2019)](https://proceedings.neurips.cc/paper/2019/hash/6e7d5d259be7bf56ed79029c4e621f44-Abstract.html).
+Content: This repository contains the code and analysis scripts for our paper ["Unfolding the Black Box of Recurrent Neural Networks for Path Integration"](https://neurips.cc/virtual/2025/poster/117611) NeurIPS (2025). This is built upon the [code framework](https://github.com/ganguli-lab/grid-pattern-formation/tree/master) of [Sorscher et al. NeurIPS (2019)](https://proceedings.neurips.cc/paper/2019/hash/6e7d5d259be7bf56ed79029c4e621f44-Abstract.html). Documentation updates in progress for the upcoming conference.
 
 ## 🗂️ Directory Structure
 ```
 band_grid_hierarchy/
-├── models/                               # Stored model and data
+├── models/                               # Store data of different models
+├── neural circuit                        # Neural Circuit
 ├── 1_model_genetate_data.ipynb           # Data generation
 ├── 2_band_cell_plot.ipynb                # Band cell plotting
 ├── 3_band_isomap.ipynb                   # Band isomap
@@ -78,6 +79,5 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 For questions regarding the code and analysis, please open an issue on GitHub or contact:
 -   Tianhao Chu - chutianhao@stu.pku.edu.cn
 -   Yuling Wu - yulingwu@stu.pku.edu.cn
--   Si Wu - siwu@pku.edu.cn
 
 Please feel free to submit pull requests, report bugs, or suggest new features.
