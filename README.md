@@ -1,12 +1,12 @@
-# band_grid_hierarchy
+# hierarchy_band_grid
 
 Content: This repository contains the code and analysis scripts for our paper ["Unfolding the Black Box of Recurrent Neural Networks for Path Integration"](https://neurips.cc/virtual/2025/poster/117611) NeurIPS (2025). This is built upon the [code framework](https://github.com/ganguli-lab/grid-pattern-formation/tree/master) of [Sorscher et al. NeurIPS (2019)](https://proceedings.neurips.cc/paper/2019/hash/6e7d5d259be7bf56ed79029c4e621f44-Abstract.html). Documentation updates in progress for the upcoming conference.
 
 ## 🗂️ Directory Structure
 ```
-band_grid_hierarchy/
+hierarchy_band_grid/
 ├── models/                               # Store data of different models
-├── neural circuit                        # Neural Circuit
+├── neural_circuit/                       # Neural Circuit
 ├── 1_model_genetate_data.ipynb           # Data generation
 ├── 2_band_cell_plot.ipynb                # Band cell plotting
 ├── 3_band_isomap.ipynb                   # Band isomap
@@ -33,8 +33,8 @@ To replicate the computational environment required to run this code:
 
 1.  **Clone this repository:**
     ```bash
-    git clone https://github.com/yuling-wu/band_grid_hierarchy.git
-    cd band_grid_hierarchy
+    git clone https://github.com/yuling-wu/hierarchy_band_grid.git
+    cd hierarchy_band_grid
     ```
 
 2.  **Create the Conda environment** from the `environment.yml` file:
